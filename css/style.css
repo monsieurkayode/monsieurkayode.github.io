@@ -30,10 +30,6 @@ html, body, .block {
   margin-left: 1em;
 }
 
-#form {
-  /* margin-top: 1rem; */
-}
-
 .navbtn {
   background: coral;
 }
@@ -125,17 +121,12 @@ input[type=email]:not(.browser-default) {
 
 #user-dropdown {
   margin-top: 60px;
-  font-family: FontAwesome;
+  font-family: Roboto;
 }
 
 .no-margin {
   margin: 0;
 }
-
-/* #slide-out {
-  z-index: -1;
-  background: teal;
-} */
 
 #banner {
   padding: 0;
