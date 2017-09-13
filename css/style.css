@@ -128,11 +128,6 @@ input[type=email]:not(.browser-default) {
   margin: 0;
 }
 
-/* #slide-out {
-  z-index: -1;
-  background: teal;
-} */
-
 #banner {
   padding: 0;
   margin: -7px;
