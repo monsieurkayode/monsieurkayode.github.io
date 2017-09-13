@@ -258,3 +258,24 @@ a#post-btn:hover {
 #modal-login .modal-content{
   padding: 0;
 }
+
+#edit, #delete {
+  background: none;
+  padding: 0 10px 0 10px;
+  border: 1px solid grey;
+  transition-property: background, color;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in
+}
+
+#edit:hover {
+  background: cornflowerblue;
+  color: white;
+  padding: 0 10px 0 10px;
+}
+
+#delete:hover {
+  background: tomato;
+  color: white;
+  padding: 0 10px 0 10px;
+}
