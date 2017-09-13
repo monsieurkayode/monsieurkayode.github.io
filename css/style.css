@@ -279,3 +279,8 @@ a#post-btn:hover {
   color: white;
   padding: 0 10px 0 10px;
 }
+
+.reaction {
+  padding: 2px;
+  margin-left: 10px;
+}
