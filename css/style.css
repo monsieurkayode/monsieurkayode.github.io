@@ -1,6 +1,11 @@
 html, body, .block {
   height: 100%;
   overflow-x: hidden;
+  box-sizing: border-box !important;
+}
+
+.card {
+  background: #fff;
 }
 
 #nav-search input[type=search]:not(.browser-default) {
@@ -266,7 +271,7 @@ a#post-btn:hover {
   padding: 0;
 }
 
-#edit, #delete {
+.edit, .delete {
   background: none;
   padding: 0 10px 0 10px;
   border: 1px solid grey;
@@ -275,13 +280,13 @@ a#post-btn:hover {
   transition-timing-function: ease-in
 }
 
-#edit:hover {
+.edit:hover {
   background: cornflowerblue;
   color: white;
   padding: 0 10px 0 10px;
 }
 
-#delete:hover {
+.delete:hover {
   background: tomato;
   color: white;
   padding: 0 10px 0 10px;
