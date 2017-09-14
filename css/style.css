@@ -132,6 +132,12 @@ input[type=email]:not(.browser-default) {
   opacity: 0.7;
 }
 
+#recipe-img .card-title {
+  font-size: 2rem;
+  font-weight: bolder;
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.8)
+}
+
 #comment-box textarea {
   border: 2px ridge #ddd;
 }
@@ -147,6 +153,7 @@ input[type=email]:not(.browser-default) {
 
 a#post-btn:hover {
   background: grey;
+  color: white;
 }
 
 #trending .collection .collection-item {
@@ -285,6 +292,20 @@ a#post-btn:hover {
   margin-left: 10px;
 }
 
+.small-cards .reaction {
+  padding: 2px;
+  margin-left: 10px;
+  font-size: 0.8rem
+}
+
+.small-cards .counts {
+  font-size: 0.9rem;
+}
+
+.small-cards .comment {
+  font-size: 1.2rem;
+}
+
 .created-at {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 0.8rem;
@@ -294,10 +315,26 @@ a#post-btn:hover {
   padding: 18px;
 }
 
-.card .card-content .divider {
+.views-small .card-content .divider {
+  position: relative;
+  top: -1rem;
   margin-bottom: 0.8rem;
-  margin-left: -3rem;
-  margin-right: -3rem;
+  margin-left: -1.75rem;
+  margin-right: -1.75rem;
+}
+
+.views-small .card-content a,
+.views-small .card-content p {
+  position: relative;
+  top: -1rem;
+  left: -1rem
+}
+
+.views .card-content .divider {
+  position: relative;
+  margin-bottom: 0.8rem;
+  margin-left: -1.75rem;
+  margin-right: -1.75rem;
 }
 
 .recipe-summary {
@@ -310,12 +347,9 @@ a#post-btn:hover {
 }
 
 .small-cards .card-title {
+  position: relative;
   font-size: 1.3rem;
-}
-
-.small-cards .card-title {
-  font-size: 1.3rem;
-  padding: 0;
+  left: -1rem
 }
 
 .views .card-image .card-title {
@@ -335,4 +369,19 @@ a#post-btn:hover {
   font-weight: bold;
   font-size: 0.8rem;
   text-shadow: 0 2px 2px rgba(0, 0, 0, 0.8)
+}
+
+.views-small .card-content .card-title {
+  position: relative;
+  top: -1rem
+}
+
+.review {
+  position: relative;
+  left: 2rem; 
+}
+
+.recipe-view .card-image .card-title a {
+  position: relative;
+  bottom: -1rem;
 }
