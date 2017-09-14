@@ -290,6 +290,16 @@ a#post-btn:hover {
   font-size: 0.8rem;
 }
 
+.card .card-reveal {
+  padding: 18px;
+}
+
+.card .card-content .divider {
+  margin-bottom: 0.8rem;
+  margin-left: -3rem;
+  margin-right: -3rem;
+}
+
 .recipe-summary {
   font-size: 0.9rem;
 }
@@ -301,10 +311,17 @@ a#post-btn:hover {
 
 .small-cards .card-title {
   font-size: 1.3rem;
-  padding: 0;
 }
 
 .small-cards .card-title {
   font-size: 1.3rem;
   padding: 0;
+}
+
+.views .card-image .card-title {
+  right: 0;
+  left: unset;
+  font-weight: bold;
+  font-size: 1rem;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.8)
 }
