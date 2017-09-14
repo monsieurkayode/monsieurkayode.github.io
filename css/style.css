@@ -325,7 +325,7 @@ a#post-btn:hover {
   left: unset;
   font-weight: bold;
   font-size: 1rem;
-  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.8)
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.8)
 }
 
 .views-small .card-image .card-title {
@@ -334,5 +334,5 @@ a#post-btn:hover {
   left: unset;
   font-weight: bold;
   font-size: 0.8rem;
-  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.8)
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.8)
 }
