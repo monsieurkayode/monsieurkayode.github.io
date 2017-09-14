@@ -47,18 +47,12 @@
       <li class="">
         <a class="" href="#">New Post</a>
       </li>
-      <li class="">
-        <a class="" href="login.html">Log In</a>
-      </li>
-      <li class="">
-        <a class="" href="register.html">Sign Up</a>
-      </li>
     </ul>
     <div id="recipe-img" class="hide-on-small-only">
       <div class="card z-depth-0">
         <div class="card-image">
           <img class="responsive-img" src="css/img/cake.jpg" alt="">
-          <span class="card-title">Recipes</span>
+          <span class="card-title">Frosty Chocolat</span>
         </div>
       </div>
     </div>
@@ -87,13 +81,13 @@
           </p>
         </div>
         <div class="col l12 m12 s12">
-          <div class="card">
+          <div class="card recipe-view">
             <div class="card-image">
               <img class="materialboxed" src="css/img/cake2.jpg" alt="">
-              <span class="card-title">
-                <a class="btn btn-floating right red" href="">-5</a>
-                <a class="btn btn-floating right blue-grey" href="">+23</a>
-                <a class="btn btn-floating right white" href=""><i class="fa fa-heart red-text"></i></a>
+              <span class="card-title right">
+                <a class="chip active" href=""><i class="fa fa-thumbs-up"></i></a>
+                <a class="chip" href=""><i class="fa fa-thumbs-down "></i></a>
+                <a class="chip" href=""><i class="fa fa-heart"></i></a> 
               </span>
             </div>
           </div>
@@ -105,17 +99,32 @@
     <div id="modal-newpost" class="modal">
       <div class="modal-content">
         <div class="row">
+          <div class="card-panel center-align teal-text z-depth-0">
+            <h5>Create New Recipe</h5>
+          </div>
           <form class="col s12 l12">
             <div class="row">
               <div class="input-field col-s12 l12 m12">
-                <input id="new-title" type="text" class="validate">
-                <label class="active" for="title">Title</label>
+                <input id="recipe-name" type="text" class="validate">
+                <label class="active" for="recipe-name">Recipe Name</label>
               </div>
             </div>
             <div class="row">
               <div class="input-field col-s12 l12 m12">
-                <textarea id="new-content" class="materialize-textarea"></textarea>
-                <label class="active" for="title">Content</label>
+                <input id="category" type="text" class="validate">
+                <label class="active" for="category">Category</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col-s12 l12 m12">
+                <input id="new-ingredients" type="text" class="validate">
+                <label class="active" for="new-ingredients">Ingredients</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col-s12 l12 m12">
+                <textarea id="instructions" class="materialize-textarea"></textarea>
+                <label class="active" for="instructions">Instructions</label>
               </div>
             </div>
             <div class="file-field input-field">
@@ -129,11 +138,12 @@
             </div>
           </form>
         </div>
-        </div>
-        <div class="modal-footer">
-          <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat btn white-text teal"><i class="fa fa-paper-plane"></i> Post</a>
-        </div>
       </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat btn white-text red"><i class="fa fa-close"></i> Cancel</a>
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat btn white-text blue"><i class="fa fa-paper-plane"></i> Post</a>
+      </div>
+    </div>
     <div id="comment-box" class="row">
       <div class="col l10 m12 s12 offset-l1">
         <form>
@@ -149,10 +159,10 @@
         <ul>
           <li>
             <img class="secondary-content circle left" src="css/img/user.jpg" height="40px" alt="">
-            <span class=""> <strong class="teal-text">Kayode Adeola</strong> <span class="grey-text"><br> August 23, 2017 8:52pm</span></span>
+            <span class=""> <strong class="teal-text">Kayode Adeola</strong> <span class="grey-text created-at"><br> August 23, 2017 8:52pm</span></span>
           </li>
           <li>
-            <p>
+            <p class="review">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
               tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
               veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 

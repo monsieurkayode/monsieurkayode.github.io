@@ -16,28 +16,28 @@
         <div class="nav-wrapper">
           <a class="brand-logo font-effect-3d-float logo hide-on-small-only" href="loginaction.html">More-Recipies</a>
           <a href="#" data-activates="dashboard" class="button-collapse"><i class="material-icons">menu</i></a>         
-            <ul class="right hide-on-med-and-down return">
-              <li>
-                <a class="dropdown-button" href="#" data-activates="user-dropdown"><span class="fa fa-lg fa-user-circle"></span> Kayode Adeola <span class="fa fa-lg fa-caret-down"></span></a>
-              </li>
-            </ul>
+          <ul class="right hide-on-med-and-down return">
+            <li>
+              <a class="dropdown-button" href="#" data-activates="user-dropdown"><span class="fa fa-lg fa-user-circle"></span> Kayode Adeola <span class="fa fa-lg fa-caret-down"></span></a>
+            </li>
+          </ul>
         </div>
       </nav>
     </div>
     <div class="row">
       <div id="dash-panel" class="col l3 teal darken-2 hide-on-med-and-down">
-          <div id="profile-page-header" class="card teal darken-2 z-depth-0">
-            <div class="card-image">
-              <img class="responsive-img" id="dash-img" src="css/img/dash.jpg" alt="user-background">
-              <figure class="card-profile-image">
-                <img src="css/img/user.jpg" alt="profile image" class="z-depth-2 responsive-img">
-              </figure>
-            </div>
-            <div id="dash-links" >
-              <div class="collection">
-                <a id="dashboard-parent" href="#!" class="collection-item"><strong><span class="fa fa-dashboard"></span> Dashboard</strong></a>
-                <br>
-                <div id="myTab" class="tabs-vertical">
+        <div id="profile-page-header" class="card teal darken-2 z-depth-0">
+          <div class="card-image">
+            <img class="responsive-img" id="dash-img" src="css/img/dash.jpg" alt="user-background">
+            <figure class="card-profile-image">
+              <img src="css/img/user.jpg" alt="profile image" class="z-depth-2 responsive-img">
+            </figure>
+          </div>
+          <div id="dash-links" >
+            <div class="collection">
+              <a id="dashboard-parent" href="#!" class="collection-item"><strong><span class="fa fa-dashboard"></span> Dashboard</strong></a>
+              <br>
+              <div id="myTab" class="tabs-vertical">
                 <ul class="tabs">
                   <li class="tab">
                     <a class="white-text" href="#user-profile"><i class="fa fa-vcard-o"></i> My Profile</a>
@@ -53,9 +53,9 @@
                   </li>
                 </ul>
               </div> 
-              </div>
             </div>
           </div>
+        </div>
       </div>
       <div id="user-recipes" class="col l9 m12 s12 offset-l3">
         <div class="card-panel grey lighten-4">
@@ -66,113 +66,104 @@
         </div>
          <div id="my-recipes" class="row"> 
           <div class="col l6 m8 s12 offset-m2">
-            <div class="card large">
+            <div class="card views">
               <div class="card-image">
                 <a href="recipe-view.html"><img class="activator" src="css/img/cake2.jpg" alt=""></a>
+                <span class="card-title">24 Views</span>
               </div>
               <div class="card-content">
-                <span class="card-title ">Frosty Chocolat</span>
-                <a id="edit" class="chip blue white-text modal-trigger" href="#modal-edit"><i class="fa fa-pencil"></i> Edit</a><span>
-                <a id="delete" class="chip white-text red modal-trigger" href="#modal-delete"><i class="fa fa-trash-o"></i> Delete</a>
-                <i class="fa fa-thumbs-down right grey-text" href=""> 2</i>
-                <i class="fa fa-thumbs-up right grey-text" href=""> 25</i>
-                <p class="grey-text">Posted 2 Aug 17, 10:55am<i class="fa fa-comment-o right black-text">12</i></p>
-                </span>         
+                <span class="card-title"><strong>Frosty Chocolat</strong></span>
+                <div class="divider"></div>
+                <a class="edit chip modal-trigger" href="#modal-edit"><i class="fa fa-pencil"></i> Edit</a><span>
+                <a class="delete chip modal-trigger" href="#modal-delete"><i class="fa fa-trash-o"></i> Delete</a>
+                <span class="right"><i class="material-icons tiny reaction">thumb_down</i>2</span>
+                <span class="right"><i class="material-icons tiny reaction">thumb_up</i>10</span>
+                <span class="right">12</span><i class="material-icons right">comment</i>
+                <span><p class="created-at">2 Aug 17, 10:55am</p></span>
+                </span>
               </div>
             </div>
           </div>
           <div class="row">
             <div class="col l3 m8 s12 offset-m2">
-            <div class="card">
-              <div class="card-image">
-                <a href="recipe-view.html"><img class="activator" src="css/img/spice.jpg" alt=""></a>
-              </div>
-              <div class="card-content">
-                <span class="card-title activator">Hot Spice<i class="material-icons right">more_vert</i></span>         
-              </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4">Hot Spice<i class="material-icons right">close</i></span>
-                <br>
-                <a id="edit" class="chip blue white-text modal-trigger" href="#modal-edit"><i class="fa fa-pencil"></i> Edit</a><span>
-                <a id="delete" class="chip white-text red modal-trigger" href="#modal-delete"><i class="fa fa-trash-o"></i> Delete</a>
-                <p class="grey-text">Posted 2 Aug 17, 10:55am
-                <i class="fa fa-comment-o right black-text">12</i>
-                <i class="fa fa-thumbs-down right grey-text" href=""> 2</i>
-                <i class="fa fa-thumbs-up right grey-text" href=""> 25</i>
-                </p>
-                </span>
+              <div class="card views-small">
+                <div class="card-image">
+                  <a href="recipe-view.html"><img src="css/img/cake2.jpg" alt=""></a>
+                  <span class="card-title">24 Views</span>
+                </div>
+                <div class="card-content small-cards">
+                  <span class="card-title"><strong>Frosty Chocolat</strong></span>
+                  <div class="divider"></div>
+                  <a class="edit chip modal-trigger" href="#modal-edit"><i class="fa fa-pencil"></i> Edit</a><span>
+                  <a class="delete chip modal-trigger" href="#modal-delete"><i class="fa fa-trash-o"></i> Delete</a><br>
+                  <span class="right"><i class="material-icons tiny reaction">thumb_down</i>2</span>
+                  <span class="right"><i class="material-icons tiny reaction">thumb_up</i>10</span>
+                  <span class="right">12</span><i class="material-icons comment right">comment</i>
+                  <span><p class="created-at">2 Aug 17, 10:55am</p></span>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col l3 m8 s12 offset-m2">
-            <div class="card">
-              <div class="card-image">
-                <a href="recipe-view.html"><img class="activator" src="css/img/spice.jpg" alt=""></a>
-              </div>
-              <div class="card-content">
-                <span class="card-title activator">Hot Spice<i class="material-icons right">more_vert</i></span>         
-              </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4">Hot Spice<i class="material-icons right">close</i></span>
-                <br>
-                <a id="edit" class="chip blue white-text modal-trigger" href="#modal-edit"><i class="fa fa-pencil"></i> Edit</a><span>
-                <a id="delete" class="chip white-text red modal-trigger" href="#modal-delete"><i class="fa fa-trash-o"></i> Delete</a>
-                <p class="grey-text">Posted 2 Jul 17, 1:55pm
-                <i class="fa fa-comment-o right black-text">12</i>
-                <i class="fa fa-thumbs-down right grey-text" href=""> 11</i>
-                <i class="fa fa-thumbs-up right grey-text" href=""> 98</i>
-                </p>
-                </span>
+            <div class="col l3 m8 s12 offset-m2">
+              <div class="card views-small">
+                <div class="card-image">
+                  <a href="recipe-view.html"><img src="css/img/cake2.jpg" alt=""></a>
+                  <span class="card-title">24 Views</span>
+                </div>
+                <div class="card-content small-cards">
+                  <span class="card-title"><strong>Frosty Chocolat</strong></span>
+                  <div class="divider"></div>
+                  <a class="edit chip modal-trigger" href="#modal-edit"><i class="fa fa-pencil"></i> Edit</a><span>
+                  <a class="delete chip modal-trigger" href="#modal-delete"><i class="fa fa-trash-o"></i> Delete</a><br>
+                  <span class="right"><i class="material-icons tiny reaction">thumb_down</i><span class="counts">2</span></span>
+                  <span class="right"><i class="material-icons tiny reaction">thumb_up</i>10</span>
+                  <span class="right">12</span><i class="material-icons comment right">comment</i>
+                  <span><p class="created-at">2 Aug 17, 10:55am</p></span>
+                  </span>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col l3 m8 s12 offset-m2">
-            <div class="card">
-              <div class="card-image">
-                <a href="recipe-view.html"><img class="activator" src="css/img/burger.jpg" alt=""></a>
-              </div>
-              <div class="card-content">
-                <span class="card-title activator">HamBurger<i class="material-icons right">more_vert</i></span>         
-              </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4">Hamburger<i class="material-icons right">close</i></span>
-                <br>
-                <a id="edit" class="chip blue white-text modal-trigger" href="#modal-edit"><i class="fa fa-pencil"></i> Edit</a><span>
-                <a id="delete" class="chip white-text red modal-trigger" href="#modal-delete"><i class="fa fa-trash-o"></i> Delete</a>
-                <p class="grey-text">Posted 2 Jul 17, 1:55pm
-                <i class="fa fa-comment-o right black-text">12</i>
-                <i class="fa fa-thumbs-down right grey-text" href=""> 11</i>
-                <i class="fa fa-thumbs-up right grey-text" href=""> 98</i>
-                </p>
-                </span>
+            <div class="col l3 m8 s12 offset-m2">
+              <div class="card views-small">
+                <div class="card-image">
+                  <a href="recipe-view.html"><img src="css/img/cake2.jpg" alt=""></a>
+                  <span class="card-title">24 Views</span>
+                </div>
+                <div class="card-content small-cards">
+                  <span class="card-title"><strong>Frosty Chocolat</strong></span>
+                  <div class="divider"></div>
+                  <a class="edit chip modal-trigger" href="#modal-edit"><i class="fa fa-pencil"></i> Edit</a><span>
+                  <a class="delete chip modal-trigger" href="#modal-delete"><i class="fa fa-trash-o"></i> Delete</a><br>
+                  <span class="right"><i class="material-icons tiny reaction">thumb_down</i>2</span>
+                  <span class="right"><i class="material-icons tiny reaction">thumb_up</i>10</span>
+                  <span class="right">12</span><i class="material-icons comment right">comment</i>
+                  <span><p class="created-at">2 Aug 17, 10:55am</p></span>
+                  </span>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col l3 m8 s12 offset-m2">
-            <div class="card">
-              <div class="card-image">
-                <a href="recipe-view.html"><img class="activator" src="css/img/burger.jpg" alt=""></a>
-              </div>
-              <div class="card-content">
-                <span class="card-title activator">HamBurger<i class="material-icons right">more_vert</i></span>         
-              </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4">Hamburger<i class="material-icons right">close</i></span>
-                <br>
-                <a id="edit" class="chip blue white-text modal-trigger" href="#modal-edit"><i class="fa fa-pencil"></i> Edit</a><span>
-                <a id="delete" class="chip white-text red modal-trigger" href="#modal-delete"><i class="fa fa-trash-o"></i> Delete</a>
-                <p class="grey-text">Posted 2 Jul 17, 1:55pm
-                <i class="fa fa-comment-o right black-text">12</i>
-                <i class="fa fa-thumbs-down right grey-text" href=""> 11</i>
-                <i class="fa fa-thumbs-up right grey-text" href=""> 98</i>
-                </p>
-                </span>
+            <div class="col l3 m8 s12 offset-m2">
+              <div class="card views-small">
+                <div class="card-image">
+                  <a href="recipe-view.html"><img src="css/img/cake2.jpg" alt=""></a>
+                  <span class="card-title">24 Views</span>
+                </div>
+                <div class="card-content small-cards">
+                  <span class="card-title"><strong>Frosty Chocolat</strong></span>
+                  <div class="divider"></div>
+                  <a class="edit chip modal-trigger" href="#modal-edit"><i class="fa fa-pencil"></i> Edit</a><span>
+                  <a class="delete chip modal-trigger" href="#modal-delete"><i class="fa fa-trash-o"></i> Delete</a><br>
+                  <span class="right"><i class="material-icons tiny reaction">thumb_down</i>2</span>
+                  <span class="right"><i class="material-icons tiny reaction">thumb_up</i>10</span>
+                  <span class="right">12</span><i class="material-icons comment right">comment</i>
+                  <span><p class="created-at">2 Aug 17, 10:55am</p></span>
+                  </span>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div> 
-    </div>
+      </div>
+    <!-- </div>  -->
     <div id="user-profile" class="col l9 m12 s12 offset-l3">
         <div class="card-panel grey lighten-4">
           <span class="card-content">
@@ -223,113 +214,85 @@
           </span>
         </div>
          <div id="user-favorites" class="row"> 
-          <!-- <div class="col l6 m8 s12 offset-m2">
-            <div class="card large">
-              <div class="card-image">
-                <img class="activator" src="css/img/cake2.jpg" alt="">
-              </div>
-              <div class="card-content">
-                <span class="card-title ">Frosty Chocolat</span>
-                <a id="edit" class="chip blue white-text modal-trigger" href="#modal-edit"><i class="fa fa-pencil"></i> Edit</a><span>
-                <a id="delete" class="chip white-text red modal-trigger" href="#modal-delete"><i class="fa fa-trash-o"></i> Delete</a>
-                <i class="fa fa-thumbs-down right grey-text" href=""> 2</i>
-                <i class="fa fa-thumbs-up right grey-text" href=""> 25</i>
-                <p class="grey-text">Posted 2 Aug 17, 10:55am<i class="fa fa-comment right black-text">12</i></p>
-                </span>         
-              </div>
-            </div>
-          </div> -->
           <div class="row">
             <div class="col l3 m8 s12 offset-m2">
-            <div class="card">
-              <div class="card-image">
-                <img class="activator" src="css/img/spice.jpg" alt="">
+              <div class="card views-small">
+                <div class="card-image">
+                  <a href="recipe-view.html"><img src="css/img/cake2.jpg" alt=""></a>
+                  <span class="card-title">24 Views</span>
+                </div>
+                <div class="card-content small-cards">
+                  <span class="card-title"><strong>Frosty Chocolat</strong></span>
+                  <div class="divider"></div>
+                  <a class="edit chip modal-trigger" href="#modal-edit"><i class="fa fa-pencil"></i> Edit</a><span>
+                  <a class="delete chip modal-trigger" href="#modal-delete"><i class="fa fa-trash-o"></i> Delete</a><br>
+                  <span class="right"><i class="material-icons tiny reaction">thumb_down</i>2</span>
+                  <span class="right"><i class="material-icons tiny reaction">thumb_up</i>10</span>
+                  <span class="right">12</span><i class="material-icons comment right">comment</i>
+                  <span><p class="created-at">2 Aug 17, 10:55am</p></span>
+                  </span>
+                </div>
               </div>
-              <div class="card-content">
-                <span class="card-title activator">Hot Spice<i class="material-icons right">more_vert</i></span>         
+            </div>
+            <div class="col l3 m8 s12 offset-m2">
+              <div class="card views-small">
+                <div class="card-image">
+                  <a href="recipe-view.html"><img src="css/img/cake2.jpg" alt=""></a>
+                  <span class="card-title">24 Views</span>
+                </div>
+                <div class="card-content small-cards">
+                  <span class="card-title"><strong>Frosty Chocolat</strong></span>
+                  <div class="divider"></div>
+                  <a class="edit chip modal-trigger" href="#modal-edit"><i class="fa fa-pencil"></i> Edit</a><span>
+                  <a class="delete chip modal-trigger" href="#modal-delete"><i class="fa fa-trash-o"></i> Delete</a><br>
+                  <span class="right"><i class="material-icons tiny reaction">thumb_down</i>2</span>
+                  <span class="right"><i class="material-icons tiny reaction">thumb_up</i>10</span>
+                  <span class="right">12</span><i class="material-icons comment right">comment</i>
+                  <span><p class="created-at">2 Aug 17, 10:55am</p></span>
+                  </span>
+                </div>
               </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4">Hot Spice<i class="material-icons right">close</i></span>
-                <br>
-                <a id="edit" class="chip blue white-text modal-trigger" href="#modal-edit"><i class="fa fa-pencil"></i> Edit</a><span>
-                <a id="delete" class="chip white-text red modal-trigger" href="#modal-delete"><i class="fa fa-trash-o"></i> Delete</a>
-                <p class="grey-text">Posted 2 Aug 17, 10:55am
-                <i class="fa fa-comment right black-text">12</i>
-                <i class="fa fa-thumbs-down right grey-text" href=""> 2</i>
-                <i class="fa fa-thumbs-up right grey-text" href=""> 25</i>
-                </p>
-                </span>
+            </div>
+            <div class="col l3 m8 s12 offset-m2">
+              <div class="card views-small">
+                <div class="card-image">
+                  <a href="recipe-view.html"><img src="css/img/cake2.jpg" alt=""></a>
+                  <span class="card-title">24 Views</span>
+                </div>
+                <div class="card-content small-cards">
+                  <span class="card-title"><strong>Frosty Chocolat</strong></span>
+                  <div class="divider"></div>
+                  <a class="edit chip modal-trigger" href="#modal-edit"><i class="fa fa-pencil"></i> Edit</a><span>
+                  <a class="delete chip modal-trigger" href="#modal-delete"><i class="fa fa-trash-o"></i> Delete</a><br>
+                  <span class="right"><i class="material-icons tiny reaction">thumb_down</i>2</span>
+                  <span class="right"><i class="material-icons tiny reaction">thumb_up</i>10</span>
+                  <span class="right">12</span><i class="material-icons comment right">comment</i>
+                  <span><p class="created-at">2 Aug 17, 10:55am</p></span>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="col l3 m8 s12 offset-m2">
+              <div class="card views-small">
+                <div class="card-image">
+                  <a href="recipe-view.html"><img src="css/img/cake2.jpg" alt=""></a>
+                  <span class="card-title">24 Views</span>
+                </div>
+                <div class="card-content small-cards">
+                  <span class="card-title"><strong>Frosty Chocolat</strong></span>
+                  <div class="divider"></div>
+                  <a class="edit chip modal-trigger" href="#modal-edit"><i class="fa fa-pencil"></i> Edit</a><span>
+                  <a class="delete chip modal-trigger" href="#modal-delete"><i class="fa fa-trash-o"></i> Delete</a><br>
+                  <span class="right"><i class="material-icons tiny reaction">thumb_down</i>2</span>
+                  <span class="right"><i class="material-icons tiny reaction">thumb_up</i>10</span>
+                  <span class="right">12</span><i class="material-icons comment right">comment</i>
+                  <span><p class="created-at">2 Aug 17, 10:55am</p></span>
+                  </span>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col l3 m8 s12 offset-m2">
-            <div class="card">
-              <div class="card-image">
-                <img class="activator" src="css/img/spice.jpg" alt="">
-              </div>
-              <div class="card-content">
-                <span class="card-title activator">Hot Spice<i class="material-icons right">more_vert</i></span>         
-              </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4">Hot Spice<i class="material-icons right">close</i></span>
-                <br>
-                <a id="edit" class="chip blue white-text modal-trigger" href="#modal-edit"><i class="fa fa-pencil"></i> Edit</a><span>
-                <a id="delete" class="chip white-text red modal-trigger" href="#modal-delete"><i class="fa fa-trash-o"></i> Delete</a>
-                <p class="grey-text">Posted 2 Jul 17, 1:55pm
-                <i class="fa fa-comment right black-text">12</i>
-                <i class="fa fa-thumbs-down right grey-text" href=""> 11</i>
-                <i class="fa fa-thumbs-up right grey-text" href=""> 98</i>
-                </p>
-                </span>
-              </div>
-            </div>
-          </div>
-          <div class="col l3 m8 s12 offset-m2">
-            <div class="card">
-              <div class="card-image">
-                <img class="activator" src="css/img/spice.jpg" alt="">
-              </div>
-              <div class="card-content">
-                <span class="card-title activator">HamBurger<i class="material-icons right">more_vert</i></span>         
-              </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4">Hamburger<i class="material-icons right">close</i></span>
-                <br>
-                <a id="edit" class="chip blue white-text modal-trigger" href="#modal-edit"><i class="fa fa-pencil"></i> Edit</a><span>
-                <a id="delete" class="chip white-text red modal-trigger" href="#modal-delete"><i class="fa fa-trash-o"></i> Delete</a>
-                <p class="grey-text">Posted 2 Jul 17, 1:55pm
-                <i class="fa fa-comment right black-text">12</i>
-                <i class="fa fa-thumbs-down right grey-text" href=""> 11</i>
-                <i class="fa fa-thumbs-up right grey-text" href=""> 98</i>
-                </p>
-                </span>
-              </div>
-            </div>
-          </div>
-          <div class="col l3 m8 s12 offset-m2">
-            <div class="card">
-              <div class="card-image">
-                <img class="activator" src="css/img/spice.jpg" alt="">
-              </div>
-              <div class="card-content">
-                <span class="card-title activator">HamBurger<i class="material-icons right">more_vert</i></span>         
-              </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4">Hamburger<i class="material-icons right">close</i></span>
-                <br>
-                <a id="edit" class="chip blue white-text modal-trigger" href="#modal-edit"><i class="fa fa-pencil"></i> Edit</a><span>
-                <a id="delete" class="chip white-text red modal-trigger" href="#modal-delete"><i class="fa fa-trash-o"></i> Delete</a>
-                <p class="grey-text">Posted 2 Jul 17, 1:55pm
-                <i class="fa fa-comment right black-text">12</i>
-                <i class="fa fa-thumbs-down right grey-text" href=""> 11</i>
-                <i class="fa fa-thumbs-up right grey-text" href=""> 98</i>
-                </p>
-                </span>
-              </div>
-            </div>
-          </div>
-          </div>
-         </div> 
+        </div>
       </div>
     </div>
     <ul id="user-dropdown" class="dropdown-content">
@@ -355,23 +318,19 @@
               <div id="myTab" class="tabs-vertical">
                 <ul class="tabs">
                   <li class="tab">
-                    <a class="white-text" href="#user-profile"><i class="fa fa-vcard-o"></i> My Profile</a>
+                    <a class="white-text" href="#user-profile"><i class="fa fa-vcard-o white-text"></i> My Profile</a>
                   </li>
                   <li class="tab">
-                    <a class="white-text" href="#user-recipes"><i class="fa fa-briefcase"></i> My Recipes</a>
+                    <a class="white-text" href="#user-recipes"><i class="fa fa-briefcase white-text"></i> My Recipes</a>
                   </li>
                   <li class="tab">
-                    <a class="white-text" href="#favorite-recipes"><i class="fa fa-heart"></i> Favorite Recipes</a>
+                    <a class="white-text" href="#favorite-recipes"><i class="fa fa-heart white-text"></i> Favorite Recipes</a>
                   </li>
                   <li class="tab">
-                    <a class="white-text" href="#"><i class="fa fa-comments-o"></i> Notifications <span id="not-badge" class="red new badge">10</span></a>
+                    <a class="white-text" href="#"><i class="fa fa-comments-o white-text"></i> Notifications <span id="not-badge" class="red new badge">10</span></a>
                   </li>
                 </ul>
               </div>
-              <!-- <a href="#" class="collection-item">My Profile <span class="right fa fa-user-circle"></a>
-              <a href="#!" class="collection-item active">My Recipes <span class="right fa fa-user-circle"></a>
-              <a href="#!" class="collection-item">Favorite Recipes <span class="right fa fa-user-circle"></a>
-              <a href="#!" class="collection-item">Notifications <span class="red new badge">10</span></a> -->
             </div>
           </div> 
         </div>
@@ -381,11 +340,20 @@
     <div id="modal-newpost" class="modal">
       <div class="modal-content">
         <div class="row">
+          <div class="card-panel center-align teal-text z-depth-0">
+            <h5>Create New Recipe</h5>
+          </div>
           <form class="col s12 l12">
             <div class="row">
               <div class="input-field col-s12 l12 m12">
-                <input id="new-title" type="text" class="validate">
-                <label class="active" for="new-title">Title</label>
+                <input id="recipe-name" type="text" class="validate">
+                <label class="active" for="recipe-name">Recipe Name</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col-s12 l12 m12">
+                <input id="category" type="text" class="validate">
+                <label class="active" for="category">Category</label>
               </div>
             </div>
             <div class="row">
@@ -396,8 +364,8 @@
             </div>
             <div class="row">
               <div class="input-field col-s12 l12 m12">
-                <textarea id="new-content" class="materialize-textarea"></textarea>
-                <label class="active" for="new-content">Content</label>
+                <textarea id="instructions" class="materialize-textarea"></textarea>
+                <label class="active" for="instructions">Instructions</label>
               </div>
             </div>
             <div class="file-field input-field">
@@ -413,6 +381,7 @@
         </div>
       </div>
       <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat btn white-text red"><i class="fa fa-close"></i> Cancel</a>
         <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat btn white-text blue"><i class="fa fa-paper-plane"></i> Post</a>
       </div>
     </div>

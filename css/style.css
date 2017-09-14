@@ -1,18 +1,11 @@
-/* .fullbg {
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-size: cover;
-  background-position: 100% 50%;
-  background-image: url();
-  background-repeat: no-repeat;
-} */
-
 html, body, .block {
   height: 100%;
   overflow-x: hidden;
+  box-sizing: border-box !important;
+}
+
+.card {
+  background: #fff;
 }
 
 #nav-search input[type=search]:not(.browser-default) {
@@ -144,6 +137,12 @@ input[type=email]:not(.browser-default) {
   opacity: 0.7;
 }
 
+#recipe-img .card-title {
+  font-size: 2rem;
+  font-weight: bolder;
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.8)
+}
+
 #comment-box textarea {
   border: 2px ridge #ddd;
 }
@@ -159,6 +158,7 @@ input[type=email]:not(.browser-default) {
 
 a#post-btn:hover {
   background: grey;
+  color: white;
 }
 
 #trending .collection .collection-item {
@@ -240,17 +240,11 @@ a#post-btn:hover {
 }
 
 .tabs-vertical .tab a.active {
-  background: #8591d5;;
+  background: #4f90ff;
 }
 
 .tabs-vertical .tab a:hover {
-  color: #8591d5;
-  background: #8591d5;
-}
-
-.tabs-vertical .tab a:hover {
-  color: #8591d5;
-  background: #8591d5;
+  background: #4f90ff;
 }
 .tabs-vertical .tab.disabled a {
   color: #8591d5;
@@ -275,4 +269,139 @@ a#post-btn:hover {
 #modal-register .modal-content,
 #modal-login .modal-content{
   padding: 0;
+}
+
+.edit, .delete {
+  background: none;
+  padding: 0 10px 0 10px;
+  border: 1px solid grey;
+  transition-property: background, color;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in
+}
+
+.edit:hover {
+  background: cornflowerblue;
+  color: white;
+  padding: 0 10px 0 10px;
+}
+
+.delete:hover {
+  background: tomato;
+  color: white;
+  padding: 0 10px 0 10px;
+}
+
+.reaction {
+  padding: 2px;
+  margin-left: 10px;
+}
+
+.small-cards .reaction {
+  padding: 2px;
+  margin-left: 10px;
+  font-size: 0.8rem
+}
+
+.small-cards .counts {
+  font-size: 0.9rem;
+}
+
+.small-cards .comment {
+  font-size: 1.2rem;
+}
+
+.created-at {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 0.8rem;
+}
+
+.card .card-reveal {
+  padding: 18px;
+}
+
+.views-small .card-content {
+  padding-bottom: 0;
+}
+
+.views-small .card-content .divider {
+  position: relative;
+  top: -1rem;
+  margin-bottom: 0.8rem;
+  margin-left: -1.75rem;
+  margin-right: -1.75rem;
+}
+
+.views-small .card-content a,
+.views-small .card-content p {
+  position: relative;
+  top: -1rem;
+  left: -1rem
+}
+
+.views .card-content .divider {
+  position: relative;
+  margin-bottom: 0.8rem;
+  margin-left: -1.75rem;
+  margin-right: -1.75rem;
+}
+
+.recipe-summary {
+  font-size: 0.9rem;
+}
+
+.small-cards-main .activator {
+  font-size: 1.4rem;
+  padding: 0;
+}
+
+.small-cards .card-title {
+  position: relative;
+  font-size: 1.3rem;
+  left: -1rem
+}
+
+.views .card-image .card-title {
+  right: 0;
+  right: -1.2rem;
+  bottom: -1.5rem;
+  left: unset;
+  font-weight: bold;
+  font-size: 1rem;
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.8)
+}
+
+.views-small .card-image .card-title {
+  right: -1.2rem;
+  bottom: -1.5rem;
+  left: unset;
+  font-weight: bold;
+  font-size: 0.8rem;
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.8)
+}
+
+.views-small .card-content .card-title {
+  position: relative;
+  top: -1rem
+}
+
+.review {
+  position: relative;
+  left: 2rem; 
+}
+
+.recipe-view .card-image .card-title a {
+  position: relative;
+  color: white;
+  bottom: -1rem;
+  background: #999
+}
+
+.recipe-view .card-image a:hover {
+  background: #bbb;
+  color: coral;
+}
+
+.recipe-view .card-image a.active {
+  color: coral;
 }
