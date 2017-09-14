@@ -383,5 +383,16 @@ a#post-btn:hover {
 
 .recipe-view .card-image .card-title a {
   position: relative;
+  color: white;
   bottom: -1rem;
+  background: #999
+}
+
+.recipe-view .card-image a:hover {
+  background: #bbb;
+  color: coral;
+}
+
+.recipe-view .card-image a.active {
+  color: coral;
 }
