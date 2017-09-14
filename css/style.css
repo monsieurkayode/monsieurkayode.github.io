@@ -320,6 +320,10 @@ a#post-btn:hover {
   padding: 18px;
 }
 
+.views-small .card-content {
+  padding-bottom: 0;
+}
+
 .views-small .card-content .divider {
   position: relative;
   top: -1rem;
