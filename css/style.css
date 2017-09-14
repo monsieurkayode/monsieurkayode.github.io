@@ -264,7 +264,7 @@ a#post-btn:hover {
   padding: 0 10px 0 10px;
   border: 1px solid grey;
   transition-property: background, color;
-  transition-duration: 0.5s;
+  transition-duration: 0.3s;
   transition-timing-function: ease-in
 }
 
@@ -283,4 +283,28 @@ a#post-btn:hover {
 .reaction {
   padding: 2px;
   margin-left: 10px;
+}
+
+.created-at {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 0.8rem;
+}
+
+.recipe-summary {
+  font-size: 0.9rem;
+}
+
+.small-cards-main .activator {
+  font-size: 1.4rem;
+  padding: 0;
+}
+
+.small-cards .card-title {
+  font-size: 1.3rem;
+  padding: 0;
+}
+
+.small-cards .card-title {
+  font-size: 1.3rem;
+  padding: 0;
 }
